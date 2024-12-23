@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+}
+body{
+font-family:poppins;
+overflow-x: hidden;
+
+}
+.container{
+    background-color:#fff9ea;
+
+}
+
+
+
+ul>li{
+    list-style: none;
+}
+.nav-ul{
+    display: flex;
+    gap:30px
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;   
+    align-items: center; 
+    height: 108px;
+
+}
+.nav-btn{
+    background-color:#ffc941;
+    border: none;
+    border-radius: 20px;
+    height: 38px;;
+    width:120px;
+    font-weight: 600;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-container{
+    background-image: url(../image/shapes.png);
+    height:98vh;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-heading{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-bottom: 21px;
+}
+.food{
+    color: #ffc941;
+}
+.hero-pera{
+    color:#625f5a;
+    margin-bottom: 23px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.what-container{
+    margin-top: 80px;
+}
+.serve{
+    margin-top: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.popular{
+    margin-top:80px ;
+}
+.menu-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+
+.menu-images{
+    background-color: #f1f1f1;
+padding: 20px;
+}
+.menu-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px 10px 0 0;
+}
+.menu-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 10px;
+}
+.review{
+    position: relative;
+    top: -35px;
+}
+/* review section start */
+.review-banner{
+    margin-left: 50px;
+}
+
+
+.review-down-image{
+    position: relative;
+    left: -30px;
+}
+.review-section{
+    margin-top: 30px;
+}
+.main-review{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.review-card-one{
+    padding: 28px 20px;
+    border:1px solid black;
+border-radius: 15px;
+    background-color: #f1f1f1;
+    width: 500px;
+
+}
+.review-card-one-image{
+    display: flex;
+    gap: 18px;
+    
+}
+.main-review-container{
+    display: flex;
+    gap: 10px;
+}
+/* last banner style */
+.last-banner-container{
+    background-image: url('../image/6.png');
+    height: 332px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* footer start */
+.footer-container{
+    background-image: url('../image/shapes.png');
+    height: 489px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    gap: 10px;
+
+}
+.last-padding{
+text-align: center;
+border-top: 1px solid black;
+padding-top: 46px;
+}
